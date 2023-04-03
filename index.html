@@ -20,50 +20,50 @@
     <div class="container">
         <p> Primeiro, seu prato </p>
         <div class="container-order lunch">
-            <div class="lunch1 order" onclick="selectLunch('.lunch1')">
+            <div data-test= "dish" class="lunch1 order" onclick="selectLunch('.lunch1')">
                 <img src="./imagensprojeto3/frango_yin_yang.png">
-                <h1>Frango Yin Yang</h1>
+                <h1 data-test="item-name">Frango Yin Yang</h1>
                 <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+                <h3 data-test="item-price"> R$ 14,90 </h3>
             </div>
 
-            <div class="lunch2 order"  onclick="selectLunch('.lunch2')">
+            <div data-test= "dish" class="lunch2 order"  onclick="selectLunch('.lunch2')">
                 <img src="./imagensprojeto3/tropeiro.jpeg">
-                <h1>Feijão Tropeiro</h1>
+                <h1 data-test="item-name">Feijão Tropeiro</h1>
                 <h2>Delicioso tropeiro, 500g</h2>
-                <h3> R$ 17,90 </h3>
+                <h3 data-test="item-price"> R$ 17,90 </h3>
             </div>
 
-            <div class="lunch3 order" onclick="selectLunch('.lunch3')">
+            <div data-test= "dish" class="lunch3 order" onclick="selectLunch('.lunch3')">
                 <img src="./imagensprojeto3/strogonoff.jpeg">
-                <h1>Strogonoff</h1>
+                <h1 data-test="item-name">Strogonoff</h1>
                 <h2>Strogonoff de carne, 600g</h2>
-                <h3> R$ 19,90 </h3>
+                <h3 data-test="item-price"> R$ 19,90 </h3>
             </div>
 
         </div>
         <p> Agora, sua bebida </p>
 
         <div class="container-order drink">
-            <div class="drink1 order" onclick="selectDrink('.drink1')">
+            <div data-test= "drink" class="drink1 order" onclick="selectDrink('.drink1')">
                 <img src="./imagensprojeto3/coca-cola.png">
-                <h1>Coquinha gelada</h1>
+                <h1 data-test="item-name">Coquinha gelada</h1>
                 <h2>Lata 350ml</h2>
-                <h3> R$ 6,90 </h3>
+                <h3 data-test="item-price"> R$ 6,90 </h3>
             </div>
 
-            <div class="drink2 order" onclick="selectDrink('.drink2')">
+            <div data-test= "drink" class="drink2 order" onclick="selectDrink('.drink2')">
                 <img src="./imagensprojeto3/pepsi.jpeg">
-                <h1>Pepsi Twist</h1>
+                <h1 data-test="item-name">Pepsi Twist</h1>
                 <h2>Lata 350ml</h2>
-                <h3> R$ 5,90 </h3>
+                <h3 data-test="item-price"> R$ 5,90 </h3>
             </div>
 
-            <div class="drink3 order" onclick="selectDrink('.drink3')">
+            <div data-test= "drink" class="drink3 order" onclick="selectDrink('.drink3')">
                 <img src="./imagensprojeto3/fanta.jpeg">
-                <h1>Fanta Uva</h1>
+                <h1 data-test="item-name">Fanta Uva</h1>
                 <h2>Lata 350ml</h2>
-                <h3> R$ 4,90 </h3>
+                <h3 data-test="item-price"> R$ 4,90 </h3>
             </div>
 
         </div>
@@ -71,30 +71,30 @@
         <p> Por fim, sua sobremesa </p>
 
         <div class="container-order dessert">
-            <div class="dessert1 order" onclick="selectDessert('.dessert1')">
+            <div data-test= "dessert" class="dessert1 order" onclick="selectDessert('.dessert1')">
                 <img src="./imagensprojeto3/pudim.png">
-                <h1>Pudim</h1>
+                <h1 data-test="item-name">Pudim</h1>
                 <h2>Pudim sem furinhos</h2>
-                <h3> R$ 8,90 </h3>
+                <h3 data-test="item-price"> R$ 8,90 </h3>
             </div>
 
-            <div class="dessert2 order" onclick="selectDessert('.dessert2')">
+            <div data-test= "dessert" class="dessert2 order" onclick="selectDessert('.dessert2')">
                 <img src="./imagensprojeto3/palhaitaliana.jpeg">
-                <h1>Palha Italiana</h1>
+                <h1 data-test="item-name">Palha Italiana</h1>
                 <h2>A melhor de todas</h2>
-                <h3> R$ 10,90 </h3>
+                <h3 data-test="item-price"> R$ 10,90 </h3>
             </div>
 
-            <div class="dessert3 order" onclick="selectDessert('.dessert3')">
+            <div data-test= "dessert" class="dessert3 order" onclick="selectDessert('.dessert3')">
                 <img src="./imagensprojeto3/brownie.jpeg">
-                <h1>Brownie</h1>
+                <h1 data-test="item-name">Brownie</h1>
                 <h2>Com castanhas!</h2>
-                <h3> R$ 12,90 </h3>
+                <h3 data-test="item-price"> R$ 12,90 </h3>
             </div>
 
         </div>
         <div class="container-button">
-            <button> Selecione os 3 itens <br> para fechar o pedido </button>
+            <button data-test="order-btn"> Selecione os 3 itens <br> para fechar o pedido </button>
             </div>
         </div>
     </div>
