@@ -22,7 +22,7 @@
         <div class="container-order lunch">
             <div data-test= "dish" class="lunch1 order" onclick="selectLunch('.lunch1')">
                 <img src="./imagensprojeto3/frango_yin_yang.png">
-                <h1 data-test="item-name">Frango Yin Yang</h1>
+                <h1 data-test="item-name" class="f1">Frango Yin Yang</h1>
                 <h2>Um pouco de batata, um pouco de salada</h2>
                 <h3 data-test="item-price"> R$ 14,90 </h3>
             </div>
@@ -94,7 +94,8 @@
 
         </div>
         <div class="container-button">
-            <button data-test="order-btn"> Selecione os 3 itens <br> para fechar o pedido </button>
+            <button onclick="wppMessage()" data-test="order-btn"> Selecione os 3 itens <br> para fechar o pedido
+            </button> 
             </div>
         </div>
     </div>
